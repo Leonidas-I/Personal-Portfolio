@@ -1,0 +1,100 @@
+body {
+    background-color: tomato;
+  }
+  .nav {
+    background-color: white;
+    width: 100%;
+  }
+  ul {
+    list-style-type: none;
+    float: right;
+  }
+  .topnav {
+    padding: 20px 20px;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: blue;
+    font-size: 20px;
+    padding: 10px 10px;
+  }
+  li a:hover {
+    background-color: red;
+    color: yellow;
+    text-decoration: none;
+    border: 1px solid yellow;
+  }
+  li a:active {
+    background-color: violet;
+    color: #00ccff;
+  }
+  .title {
+    text-decoration: underline blue;
+    color: blue;
+    font-weight: bold;
+  }
+  .about {
+    background-color: grey;
+  }
+  .portfolio {
+    background-color: lightblue;
+  }
+  .active {
+    background-color: brown;
+  }
+  .profile {
+    margin: 50px 0px;
+  }
+  .imgprofile {
+    margin: auto auto;
+  }
+  .imgportfolio {
+    margin: 25px auto;
+  }
+  .contact {
+    background-color: violet;
+  }
+  .para1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px;
+    font-family: Monospace;
+  }
+  .iconclass {
+    padding: 15px;
+    margin: 10px;
+  }
+  .fa {
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+  }
+  .fa:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    color: yellow;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-github {
+    background: #dd4b39;
+    color: white;
+  }
+  .footer {
+    background: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+  }
